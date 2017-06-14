@@ -1,0 +1,171 @@
+<html> 
+<style type='text/css'>
+nav ul ul {
+display: none;
+}
+
+/*specifies that the dropdown will display as 200 px wide blocks */
+nav ul li:hover > ul {
+display: table;
+width: 200px;
+}
+
+/* original look of the menu before mouseover. Also need to specify that it will have a table shape. Border radius controls how round the corners are. */
+nav ul {
+background: #000000;
+box-shadow: 0px 0px 9px rgba(0,0,0,0.8);
+padding-top: 0px;
+list-style: none;
+position: relative;
+display: inline-table;
+}
+
+/*This sets the width, color, alignment of the text for the dropdown items */
+nav ul li {
+float: left;
+width: 200px;
+text-align: center;
+color: #FFFFFF;
+}
+
+/*THIS IS WHERE YOU CAN SET THE COLOR FOR THE MAIN MENU ITEM WHEN YOU GO OVER IT */
+nav ul li:hover {
+background: linear-gradient(top, #4f5964 0%, #000000 40%);
+background: -moz-linear-gradient(top, #4f5964 0%, #000000 40%);
+background: -webkit-linear-gradient(top, #4f5964 0%,#000000 40%);
+}
+
+/* color for the link in the menu*/
+nav ul li:hover a {
+color: #fff;
+}
+
+nav ul li a {
+display: block; padding: 25px 40px;
+
+}
+
+nav ul ul {
+background: #5f6975; border-radius: 0px; padding: 0px;
+position: absolute; top: 100%; 
+
+}
+
+nav ul ul li {
+float: none;
+border-top: 1px solid #000000; /*borders between menu items */
+border-bottom: 1px solid #000000;
+position: relative;
+padding: 0px 0px;
+text-align: center;
+}
+
+nav ul ul li a {
+padding: 0px 0px;
+color: #fff;
+}
+
+/*background color when you go over the links can also change color of text here if you want */
+nav ul ul li a:hover {
+background: #000000;
+background: linear-gradient(top, #4f5964 0%, #000000 40%);
+background: -moz-linear-gradient(top, #4f5964 0%, #000000 40%);
+background: -webkit-linear-gradient(top, #4f5964 0%,#000000 40%);
+}
+#environment1{
+	position:absolute;
+	left:300;
+	top:100;
+	
+}
+#environment2{
+	position:absolute;
+	z-index:-2;
+	opacity:;
+	width:1400;
+}
+#environment3{
+	position:absolute;
+	top:300;
+	left:30;
+}
+#environment4{
+	position:absolute;
+	top:500;
+	left:100;
+ 
+}
+#environment5{
+	position:absolute;
+	left:600;
+	top:600;
+	background:black;
+ 
+}
+ #environment6{
+ 	position:absolute;
+ 	left:600;
+ 	top:660;
+ 	background:black;
+ }
+#acid{
+	position:absolute:}
+#hi{
+	position:absolute;
+	left:850;
+	top:530;
+}
+ 
+</style>
+ 
+<body>
+<NAV>
+	<UL>
+	<LI> Home
+	<UL>
+		<LI> <A href="file:///Users/apple/Desktop/home.html">HOME</A>
+	</UL></LI>
+
+	    <LI> Causes 
+			<UL>
+				<LI> <A href="file:///Users/apple/Desktop/transportation.html">Transportations </LI></A>
+				<LI><A href="file:///Users/apple/Desktop/factory.html">Factories </LI></A>
+				<LI><A href="file:///Users/apple/Desktop/mining%20operations.html"> Mining operations </LI></A>
+				<LI><A href="file:///Users/apple/Desktop/indoor%20air%20pollution.html"> Indoor air pollution </LI></A>
+			</UL>
+		</LI>
+		<LI> Human effects
+			<UL>
+				<LI> <A href="file:///Users/apple/Desktop/human%20effects.html"> Human effects </LI></A>
+				
+						</UL>
+		</LI>
+		<LI> Enviromental effects
+			<UL>
+				<LI> Enviromental effects </LI>
+				
+			</UL>
+		</LI>
+
+		
+	
+	</UL>
+	</NAV>
+	<font size="7" color="#33FF86" face="Didot" id="environment1">
+		How does air pollution affect the environment?</font>
+		<img src="environment.jpg" id="environment2"></img>
+		<font size="5" color="#FFFFFF" id="environment3">
+			Air pollution affect environment by keep causing acid rain,<br>damage plants and animals, it has negative effect on biodiversity </br>and the survival of species.</font>
+<img src="watercycle.jpg" id="environment4"></img>
+<font size="4" color="#FFFFFF" id="environment5">Acid rain is precipitation containing harmful amounts of nitric and sulfuric acids. <BR>These acids are formed primarily by nitrogen oxides and sulfur oxides released </BR>into the atmosphere when fossil fuels are burned.</font>
+<font size="6" color="#33FF86" face="Didot"id="hi">
+Acid rain :</font>
+<font size="4" color="#FFFFFF" id="environment6">
+ These acids fall to the Earth either as wet precipitation (rain, snow, or fog) or dry <BR>precipitation (gas and particulates). Some are carried by the wind, sometimes<BR> hundreds of miles. In the environment, acid rain damages trees and causes soils <BR>and water bodies to acidify, making the water unsuitable for some fish and other wildlife. </BR>It also speeds the decay of buildings, statues, and sculptures that are part of our national heritage. 
+				
+</font>
+ <img src="acid-rain.jpg" id="acid">
+</body>
+</html>
+ 
+ 

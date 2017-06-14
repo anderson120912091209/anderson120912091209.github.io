@@ -1,0 +1,167 @@
+<html>
+<HEAD>
+<TITLE>Human effects</TITLE>
+<STYLE type= 'text/css'>
+nav ul ul {
+display: none;
+}
+
+/*specifies that the dropdown will display as 200 px wide blocks */
+nav ul li:hover > ul {
+display: table;
+width: 200px;
+}
+
+/* original look of the menu before mouseover. Also need to specify that it will have a table shape. Border radius controls how round the corners are. */
+nav ul {
+background: #000000;
+box-shadow: 0px 0px 9px rgba(0,0,0,0.8);
+padding-top: 0px;
+list-style: none;
+position: relative;
+display: inline-table;
+}
+
+/*This sets the width, color, alignment of the text for the dropdown items */
+nav ul li {
+float: left;
+width: 200px;
+text-align: center;
+color: #FFFFFF;
+}
+
+/*THIS IS WHERE YOU CAN SET THE COLOR FOR THE MAIN MENU ITEM WHEN YOU GO OVER IT */
+nav ul li:hover {
+background: linear-gradient(top, #4f5964 0%, #000000 40%);
+background: -moz-linear-gradient(top, #4f5964 0%, #000000 40%);
+background: -webkit-linear-gradient(top, #4f5964 0%,#000000 40%);
+}
+
+/* color for the link in the menu*/
+nav ul li:hover a {
+color: #fff;
+}
+
+nav ul li a {
+display: block; padding: 25px 40px;
+
+}
+
+nav ul ul {
+background: #5f6975; border-radius: 0px; padding: 0px;
+position: absolute; top: 100%; 
+
+}
+
+nav ul ul li {
+float: none;
+border-top: 1px solid #000000; /*borders between menu items */
+border-bottom: 1px solid #000000;
+position: relative;
+padding: 0px 0px;
+text-align: center;
+}
+
+nav ul ul li a {
+padding: 0px 0px;
+color: #fff;
+}
+
+/*background color when you go over the links can also change color of text here if you want */
+nav ul ul li a:hover {
+background: #000000;
+background: linear-gradient(top, #4f5964 0%, #000000 40%);
+background: -moz-linear-gradient(top, #4f5964 0%, #000000 40%);
+background: -webkit-linear-gradient(top, #4f5964 0%,#000000 40%);
+}
+#effects{
+	position:absolute;
+	left:550;
+	top:100;
+
+}
+#body{
+	position:absolute;
+	width:700;
+	left:700;
+	top:100;
+	z-index:-2;
+}
+#human{
+	position:absolute;
+	left:100;
+	top:200;
+}
+#didot{
+	position:absolute;
+	left:1150;
+	top:240;
+}
+#didot2{
+	position:absolute;
+	left:940;
+	top:440;
+}
+#didot3{
+	position:absolute;
+	left:840;
+	top:340;
+}
+#lung{
+	position:absolute;
+	left:90;
+	width:300;
+	top:400;
+}
+
+
+
+</STYLE>
+<BODY bgcolor="#030602">
+<NAV>
+	<UL>
+	<LI> Home
+	<UL>
+		<LI> <A href="file:///Users/apple/Desktop/home.html">HOME</A>
+	</UL></LI>
+
+	    <LI> Causes 
+			<UL>
+				<LI> <A href="file:///Users/apple/Desktop/transportation.html">Transportations </LI></A>
+				<LI><A href="file:///Users/apple/Desktop/factory.html">Factories </LI></A>
+				<LI><A href="file:///Users/apple/Desktop/mining%20operations.html"> Mining operations </LI></A>
+				<LI><A href="file:///Users/apple/Desktop/indoor%20air%20pollution.html"> Indoor air pollution </LI></A>
+			</UL>
+		</LI>
+		<LI> Human effects
+			<UL>
+				<LI> Human effects </LI>
+				
+						</UL>
+		</LI>
+		<LI> Enviromental effects
+			<UL>
+				<LI> <A href="file:///Users/apple/Desktop/environment%20effects.html">Enviromental effects </LI>
+				</A>
+			</UL>
+		</LI>
+
+		
+	
+	</UL>
+	</NAV>
+ <FONT size="7" color="#FFFFFF" face="Didot" id="effects"> 
+Human Effects </FONT> 
+<IMG src="body.jpg" id="body">
+<FONT size="6" color="#FFFFFF" face="Didot" id="human">
+In addition, long-term exposure to air pollution <BR>can cause cancer and damage to the immune, <BR>neurological, reproductive, and respiratory systems. </BR>In extreme cases, it can even cause death. </FONT>
+<FONT size="4" color="FFFFFF" face="Didot" id="didot">
+Breathing polluted air puts <BR>you at a higher risk for asthma <BR>and other respiratory diseases.</BR></FONT>
+<FONT size="4" color="FFFFFF" face="Didot" id="didot2">
+peoples lung function decreased <BR>and they suffered from respiratory <BR>inflammation.</FONT></BR>
+<FONT size="4" color="FFFFFF" face="Didot" id="didot3">
+keep coughing and wheezing</FONT>
+<IMG src="lung.jpg" id="lung">
+</HEAD>
+</html>
+</BODY>
